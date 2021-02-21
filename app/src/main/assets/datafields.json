@@ -1,0 +1,158 @@
+{
+  "success": true,
+  "message": "Data found!",
+  "data": {
+    "id": 1,
+    "partner_id": 1,
+    "name": "Set 1",
+    "slug": "set-1",
+    "description": "QSet 1",
+    "internal_comments": "Core set",
+    "details": [
+      {
+        "id": 1,
+        "survey_id": 1,
+        "question": {
+          "id": 76,
+          "name": "What is the purpose of your loan?",
+          "slug": "what-is-the-purpose-of-your-loan",
+          "qcode": null,
+          "help_text": null,
+          "placeholder": null,
+          "field_type_id": 45,
+          "values": null,
+          "internal_comments": null,
+          "follows_question_id": null,
+          "if_answer_is": null,
+          "limits": null,
+          "is_required": true,
+          "is_hidden": false,
+          "created_at": "2020-02-19 15:28:49",
+          "updated_at": "2020-02-19 15:28:49",
+          "deleted_at": null,
+          "field_type": {
+            "id": 45,
+            "name": "Heading for a group of questions",
+            "slug": "text_field",
+            "description": null,
+            "values": null,
+            "created_at": "2020-02-19 15:28:49",
+            "updated_at": "2020-02-19 15:28:49",
+            "deleted_at": null
+          }
+        }
+      },
+      {
+        "id": 68,
+        "survey_id": 1,
+        "question_id": 33,
+        "order": 7,
+        "created_at": "2020-02-19 15:28:50",
+        "updated_at": "2020-02-19 15:28:50",
+        "question": {
+          "id": 33,
+          "name": "Select bureau",
+          "slug": "select-bureau",
+          "qcode": null,
+          "help_text": "Select one",
+          "placeholder": "Select",
+          "field_type_id": 8,
+          "values": "null",
+          "internal_comments": null,
+          "follows_question_id": 31,
+          "if_answer_is": "Yes",
+          "limits": null,
+          "is_required": true,
+          "is_hidden": false,
+          "created_at": "2020-02-19 15:28:49",
+          "updated_at": "2020-02-19 15:28:49",
+          "deleted_at": null,
+          "field_type": {
+            "id": 8,
+            "name": "Custom Dropdown",
+            "slug": "custom_dropdown",
+            "description": "Create your own Drop Down",
+            "values": "Select one,CIBIL,Experian,Equifax,TransUnion,Other",
+            "created_at": "2020-02-19 15:28:49",
+            "updated_at": "2020-02-19 15:28:49",
+            "deleted_at": null
+          }
+        }
+      },
+      {
+        "id": 25,
+        "survey_id": 1,
+        "question_id": 28,
+        "order": 4,
+        "created_at": "2020-02-19 15:28:49",
+        "updated_at": "2020-02-19 15:28:49",
+        "question": {
+          "id": 28,
+          "name": "Do you have a valid document to proof your address?",
+          "slug": "do-you-have-a-valid-document-to-proof-your-address",
+          "qcode": null,
+          "help_text": "Select one",
+          "placeholder": null,
+          "field_type_id": 38,
+          "values": null,
+          "internal_comments": null,
+          "follows_question_id": null,
+          "if_answer_is": null,
+          "limits": null,
+          "is_required": true,
+          "is_hidden": false,
+          "created_at": "2020-02-19 15:28:49",
+          "updated_at": "2020-02-19 15:28:49",
+          "deleted_at": null,
+          "field_type": {
+            "id": 38,
+            "name": "Yes or No",
+            "slug": "radio_button",
+            "description": "Choose Yes or No",
+            "values": "Yes,No",
+            "created_at": "2020-02-19 15:28:49",
+            "updated_at": "2020-02-19 15:28:49",
+            "deleted_at": null
+          }
+        }
+      },
+      {
+        "id": 28,
+        "survey_id": 1,
+        "question_id": 17,
+        "order": 7,
+        "created_at": "2020-02-19 15:28:49",
+        "updated_at": "2020-02-19 15:28:49",
+        "question": {
+          "id": 17,
+          "name": "State",
+          "slug": "state",
+          "qcode": null,
+          "help_text": "Select state",
+          "placeholder": "Select",
+          "field_type_id": 31,
+          "values": null,
+          "internal_comments": null,
+          "follows_question_id": null,
+          "if_answer_is": null,
+          "limits": null,
+          "is_required": true,
+          "is_hidden": false,
+          "created_at": "2020-02-19 15:28:49",
+          "updated_at": "2020-02-19 15:28:49",
+          "deleted_at": null,
+          "field_type": {
+            "id": 31,
+            "name": "State",
+            "slug": "auto_search",
+            "description": "List of states",
+            "values": "Andhra Pradesh,Arunachal Pradesh,Assam,Bihar,Chandigarh,Chhattisgarh,Delhi,Goa",
+            "created_at": "2020-02-19 15:28:49",
+            "updated_at": "2020-02-19 15:28:49",
+            "deleted_at": null
+          }
+        }
+      }
+    ]
+  }
+}
